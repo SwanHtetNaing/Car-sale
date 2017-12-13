@@ -1,0 +1,54 @@
+.table-column {
+  -fx-alignment: CENTER-RIGHT;
+  -fx-font: normal normal 15px 'Zawgyi-One';
+}
+
+.table-row-cell{
+    -fx-cell-size: 40px;
+}
+
+.table-row-cell
+{
+-fx-border-color: silver;
+}
+
+.table-row-cell:selected {
+   -fx-background-color: orange; 
+}
+.table-row-cell:selected .text {
+       -fx-fill: black ;
+
+}
+
+.table-view .column-header{
+    -fx-font-size: 16;
+    -fx-size: 60 ;
+    -fx-font-family: "Zawgyi-One";
+}
+/*
+.table-row-cell:selected .table-cell-warn,
+.table-row-cell:selected .table-cell-error */
+/* for cell selection mode */ 
+/*
+ * .highlightedRow {
+    -fx-background-color: salmon;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background: -fx-accent;
+    -fx-text-fill: -fx-selection-bar-text;
+    } 
+    * 
+ .table-cell-warn:selected,
+.table-cell-error:selected
+
+.table-view .column-header{
+    -fx-text-fill: -fx-selection-bar-text;
+    -fx-font-size: 10;
+    -fx-size: 11 ;
+    -fx-font-family: "Arial";
+}
+{
+    -fx-background-color: #0096C9;
+    -fx-accent: #0096C9;
+    -fx-focus-color: #039ED3;
+}
+*/

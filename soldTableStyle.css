@@ -1,0 +1,13 @@
+.table-column {
+  -fx-alignment: CENTER-RIGHT;
+  -fx-font: normal normal 15px 'Zawgyi-One';
+}
+
+.table-row-cell:selected {
+   -fx-background-color: orange; 
+}
+
+.table-row-cell:selected .text {
+       -fx-fill: black;
+
+}

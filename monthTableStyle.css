@@ -1,0 +1,22 @@
+
+.table-row-cell:selected 
+{
+   -fx-background-color: orange; 
+}
+
+.table-row-cell:selected .text 
+{
+       -fx-fill: white;
+}
+
+.table-column 
+{
+  -fx-alignment: CENTER-RIGHT;
+  -fx-font: normal normal 15px 'Zawgyi-One';
+}
+
+.table-view .column-header{
+    -fx-font-size: 16;
+    -fx-size: 60 ;
+    -fx-font-family: "Zawgyi-One";
+}
